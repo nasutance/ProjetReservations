@@ -1,0 +1,11 @@
+<!-- reservations/catalogue/templates/role/index.html -->
+{% extends 'layouts/base.html' %}
+{% block title %}Liste des rôles{% endblock %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul>
+    {% for role in roles %}
+        <li>{{ role.role }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

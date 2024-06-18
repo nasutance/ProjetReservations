@@ -1,0 +1,11 @@
+<!-- reservations/catalogue/templates/locality/index.html -->
+{% extends 'layouts/base.html' %}
+{% block title %}Liste des localités{% endblock %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul>
+    {% for locality in localities %}
+        <li>{{ locality.locality }} ({{ locality.postal_code }})</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
