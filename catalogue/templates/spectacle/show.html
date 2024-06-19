@@ -1,0 +1,28 @@
+<!-- reservations/catalogue/templates/spectacle/show.html -->
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ spectacle.title }}</h1>
+
+    {% if spectacle.poster_url %}
+    <p><img src="{% static 'catalogue/images/' %}{{ spectacle.poster_url }}" alt="{{ spectacle.title }}" width="200"></p>
+    {% else %}
+    <canvas width="200" height="100" style="border:1px solid #000000;"></canvas>
+    {% endif %}
+
+    {% if spectacle.location %}
+    <p><strong>Lieu de création:</strong> {{ spectacle.location.designation }}</p>
+    {% endif %}
+
+    <p><strong>Prix:</strong> {{ spectacle.price }} €</p>
+
+    {% if spectacle.bookable %}
+    <p><em>Réservable</em></p>
+    {% else %}
+    <p><em>Non réservable</em></p>
+    {% endif %}
+{% endblock %}

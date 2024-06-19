@@ -1,0 +1,17 @@
+<!-- reservations/catalogue/templates/spectacle/index.html -->
+{% extends 'layouts/base.html' %}
+
+{% block title %}Liste des spectacles{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul>
+    {% for spectacle in spectacles %}
+        <li>{{ spectacle.title }}
+        {% if spectacle.bookable %}
+            <span>{{ spectacle.price }} €</span></li>
+        {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

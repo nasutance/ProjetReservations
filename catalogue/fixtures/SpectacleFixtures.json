@@ -1,6 +1,6 @@
 [
 {
-  "model": "catalogue.show",
+  "model": "catalogue.spectacle",
   "pk": 11,
   "fields": {
     "slug": "ayiti",
@@ -15,7 +15,7 @@
   }
 },
 {
-  "model": "catalogue.show",
+  "model": "catalogue.spectacle",
   "pk": 12,
   "fields": {
     "slug": "cible-mouvante",
@@ -30,7 +30,7 @@
   }
 },
 {
-  "model": "catalogue.show",
+  "model": "catalogue.spectacle",
   "pk": 13,
   "fields": {
     "slug": "ceci-nest-pas-un-chanteur-belge",
@@ -45,7 +45,7 @@
   }
 },
 {
-  "model": "catalogue.show",
+  "model": "catalogue.spectacle",
   "pk": 14,
   "fields": {
     "slug": "manneke",

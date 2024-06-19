@@ -17,5 +17,7 @@ urlpatterns = [
     path('locality/<int:locality_id>', views.locality.show, name='locality_show'),
     path('location/', views.location.index, name='location_index'),
 	path('location/<int:location_id>', views.location.show, name='location_show'),
+    path('spectacle/', views.spectacle.index, name='spectacle_index'),
+    path('spectacle/<int:spectacle_id>', views.spectacle.show, name='spectacle_show'),
 
 ]
