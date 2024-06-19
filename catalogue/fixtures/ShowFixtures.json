@@ -1,0 +1,62 @@
+[
+{
+  "model": "catalogue.show",
+  "pk": 11,
+  "fields": {
+    "slug": "ayiti",
+    "title": "Ayiti",
+    "description": "Un homme est bloqué à l’aéroport.\n Questionné par les douaniers, il doit alors justifier son identité, et surtout prouver qu'il est haïtien – qu'est-ce qu'être haïtien ?",
+    "poster_url": "ayiti.jpg",
+    "location": 1,
+    "duration": 120,
+    "created_in": 2024,
+    "bookable": true,
+    "price": "10.00"
+  }
+},
+{
+  "model": "catalogue.show",
+  "pk": 12,
+  "fields": {
+    "slug": "cible-mouvante",
+    "title": "Cible mouvante",
+    "description": "Dans ce « thriller d’anticipation », des adultes semblent alimenter et véhiculer une crainte féroce envers les enfants âgés entre 10 et 12 ans.",
+    "poster_url": "cible.jpg",
+    "location": 2,
+    "duration": 95,
+    "created_in": 2023,
+    "bookable": true,
+    "price": "15.00"
+  }
+},
+{
+  "model": "catalogue.show",
+  "pk": 13,
+  "fields": {
+    "slug": "ceci-nest-pas-un-chanteur-belge",
+    "title": "Ceci n'est pas un chanteur belge",
+    "description": "Non peut-être ?!\nEntre Magritte (pour le surréalisme comique) et Maigret (pour le réalisme mélancolique), ce dixième opus semalien propose quatorze nouvelles chansons mêlées à de petits textes humoristiques et à quelques fortes images poétiques.",
+    "poster_url": "claudebelgesaison220.jpg",
+    "location": 4,
+    "duration": 110,
+    "created_in": 2022,
+    "bookable": true,
+    "price": "20.00"
+  }
+},
+{
+  "model": "catalogue.show",
+  "pk": 14,
+  "fields": {
+    "slug": "manneke",
+    "title": "Manneke… !",
+    "description": "A tour de rôle, Pierre se joue de ses oncles, tantes, grands-parents et surtout de sa mère.",
+    "poster_url": "wayburn.jpg",
+    "location": 3,
+    "duration": 100,
+    "created_in": 2021,
+    "bookable": true,
+    "price": "25.00"
+  }
+}
+]
