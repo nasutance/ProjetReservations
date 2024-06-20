@@ -1,0 +1,38 @@
+[
+{
+  "model": "catalogue.representation",
+  "pk": 1,
+  "fields": {
+    "spectacle": 1,
+    "schedule": "2024-06-22T20:00:00Z",
+    "location": 1
+  }
+},
+{
+  "model": "catalogue.representation",
+  "pk": 2,
+  "fields": {
+    "spectacle": 2,
+    "schedule": "2024-06-15T20:00:00Z",
+    "location": 2
+  }
+},
+{
+  "model": "catalogue.representation",
+  "pk": 3,
+  "fields": {
+    "spectacle": 3,
+    "schedule": "2024-06-01T20:00:00Z",
+    "location": 3
+  }
+},
+{
+  "model": "catalogue.representation",
+  "pk": 4,
+  "fields": {
+    "spectacle": 4,
+    "schedule": "2024-05-25T20:00:00Z",
+    "location": 4
+  }
+}
+]

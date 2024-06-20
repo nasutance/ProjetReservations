@@ -1,7 +1,7 @@
 [
 {
   "model": "catalogue.spectacle",
-  "pk": 11,
+  "pk": 1,
   "fields": {
     "slug": "ayiti",
     "title": "Ayiti",
@@ -16,7 +16,7 @@
 },
 {
   "model": "catalogue.spectacle",
-  "pk": 12,
+  "pk": 2,
   "fields": {
     "slug": "cible-mouvante",
     "title": "Cible mouvante",
@@ -31,7 +31,7 @@
 },
 {
   "model": "catalogue.spectacle",
-  "pk": 13,
+  "pk": 3,
   "fields": {
     "slug": "ceci-nest-pas-un-chanteur-belge",
     "title": "Ceci n'est pas un chanteur belge",
@@ -46,7 +46,7 @@
 },
 {
   "model": "catalogue.spectacle",
-  "pk": 14,
+  "pk": 4,
   "fields": {
     "slug": "manneke",
     "title": "Manneke… !",
