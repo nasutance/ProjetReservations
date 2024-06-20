@@ -1,0 +1,15 @@
+<!-- reservations/catalogue/templates/representation/representation_list.html -->
+{% extends 'layouts/base.html' %}
+
+{% block title %}
+Liste des Représentations
+{% endblock %}
+
+{% block content %}
+<h1>Liste des Représentations</h1>
+<ul>
+    {% for representation in representations %}
+        <li><a href="{% url 'representation_detail' representation.pk %}">{{ representation.spectacle.title }} - {{ representation.schedule }} à {{ representation.location.designation }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,16 @@
+<!-- reservations/catalogue/templates/representation/representation_form.html -->
+{% extends 'layouts/base.html' %}
+
+{% block title %}
+Formulaire de Représentation
+{% endblock %}
+
+{% block content %}
+<h1>Formulaire de Représentation</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Enregistrer</button>
+</form>
+<a href="{% url 'representation_list' %}">Retour à la liste des représentations</a>
+{% endblock %}

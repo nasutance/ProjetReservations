@@ -19,5 +19,9 @@ urlpatterns = [
 	path('location/<int:location_id>', views.location.show, name='location_show'),
     path('spectacle/', views.spectacle.index, name='spectacle_index'),
     path('spectacle/<int:spectacle_id>', views.spectacle.show, name='spectacle_show'),
-
+    path('representations/', representation_list, name='representation_list'),
+    path('representations/<int:pk>/', representation_detail, name='representation_detail'),
+    path('representations/new/', representation_create, name='representation_create'),
+    path('representations/<int:pk>/edit/', representation_update, name='representation_update'),
+]
 ]
