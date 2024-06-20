@@ -9,7 +9,7 @@ Liste des Représentations
 <h1>Liste des Représentations</h1>
 <ul>
     {% for representation in representations %}
-        <li><a href="{% url 'representation_detail' representation.pk %}">{{ representation.spectacle.title }} - {{ representation.schedule }} à {{ representation.location.designation }}</a></li>
+        <li><a href="{% url 'catalogue:representation_detail' representation.pk %}">{{ representation.spectacle.title }} - {{ representation.schedule }} à {{ representation.location.designation }}</a></li>
     {% endfor %}
 </ul>
 {% endblock %}

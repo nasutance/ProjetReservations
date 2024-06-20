@@ -16,3 +16,6 @@ class Spectacle(models.Model):
 
     class Meta:
         db_table = "spectacles"
+
+    def __str__(self):
+        return self.title

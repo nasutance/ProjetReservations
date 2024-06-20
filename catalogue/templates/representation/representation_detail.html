@@ -10,5 +10,5 @@ Détails de la Représentation
 <p>Spectacle : {{ representation.spectacle.title }}</p>
 <p>Lieu : {{ representation.location.designation }}</p>
 <p>Date et Heure : {{ representation.schedule }}</p>
-<a href="{% url 'representation_list' %}">Retour à la liste des représentations</a>
+<a href="{% url 'catalogue:representation_list' %}">Retour à la liste des représentations</a>
 {% endblock %}

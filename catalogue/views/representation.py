@@ -1,6 +1,6 @@
 # catalogue/views/representation.py
 from django.shortcuts import render, get_object_or_404, redirect
-from catalogue.models import Representation, Spectacle, Location
+from catalogue.models import Representation
 from catalogue.forms import RepresentationForm
 from django.utils import timezone
 

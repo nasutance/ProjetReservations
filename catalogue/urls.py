@@ -1,7 +1,6 @@
 """reservations.catalogue URL Configuration
 """
 from django.urls import path
-
 from . import views
 
 app_name='catalogue'
@@ -19,9 +18,8 @@ urlpatterns = [
 	path('location/<int:location_id>', views.location.show, name='location_show'),
     path('spectacle/', views.spectacle.index, name='spectacle_index'),
     path('spectacle/<int:spectacle_id>', views.spectacle.show, name='spectacle_show'),
-    path('representations/', representation_list, name='representation_list'),
-    path('representations/<int:pk>/', representation_detail, name='representation_detail'),
-    path('representations/new/', representation_create, name='representation_create'),
-    path('representations/<int:pk>/edit/', representation_update, name='representation_update'),
-]
+    path('representation/', views.representation.representation_list, name='representation_list'),
+    path('representation/<int:pk>/', views.representation.representation_detail, name='representation_detail'),
+    path('representation/new/', views.representation.representation_create, name='representation_create'),
+    path('representation/<int:pk>/edit/', views.representation.representation_update, name='representation_update'),
 ]

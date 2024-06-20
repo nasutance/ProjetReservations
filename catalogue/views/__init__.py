@@ -5,3 +5,4 @@ from .role import *
 from .locality import *
 from .location import *
 from .spectacle import *
+from .representation import *
