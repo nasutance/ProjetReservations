@@ -1,11 +1,11 @@
 from django.db import models
-from .users import Users
+from .user import User
 
-class Reservations(models.Model):
+class Reservation(models.Model):
     reservation_id = models.AutoField(primary_key=True)
     booking_date = models.DateTimeField()
     status = models.CharField(max_length=255)
-    user = models.ForeignKey(Users, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     class Meta:
         db_table = "reservations"

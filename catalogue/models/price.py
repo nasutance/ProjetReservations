@@ -1,6 +1,6 @@
 from django.db import models
 
-class Prices(models.Model):
+class Price(models.Model):
     price_id = models.AutoField(primary_key=True)
     end_date = models.DateField()
     price = models.DecimalField(max_digits=10, decimal_places=2)

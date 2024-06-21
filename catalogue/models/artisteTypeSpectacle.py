@@ -1,5 +1,5 @@
 from django.db import models
-from .artiste_type import ArtisteType
+from .artisteType import ArtisteType
 from .spectacle import Spectacle
 
 class ArtisteTypeSpectacle(models.Model):

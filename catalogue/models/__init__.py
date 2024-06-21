@@ -8,8 +8,8 @@ from .spectacle import *
 from .representation import *
 from .artisteType import *
 from .artisteTypeSpectacle import *
-from .users import *
+from .user import *
 from .roleUser import *
-from .reservations import *
+from .reservation import *
 from .representationReservation import *
-from .prices import *
+from .price import *
