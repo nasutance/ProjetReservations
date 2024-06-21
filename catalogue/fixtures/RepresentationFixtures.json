@@ -1,3 +1,4 @@
+#Reservations\catalogue\fixtures\RepresentationFixtures.json
 [
 {
   "model": "catalogue.representation",

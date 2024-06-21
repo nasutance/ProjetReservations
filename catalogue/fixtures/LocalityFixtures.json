@@ -1,3 +1,4 @@
+#Reservations\catalogue\fixtures\LocalityFixtures.json
 [
   {
     "model": "catalogue.locality",

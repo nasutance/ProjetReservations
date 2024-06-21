@@ -1,0 +1,26 @@
+[
+  {
+    "model": "catalogue.artistetypespectacle",
+    "pk": 1,
+    "fields": {
+      "artiste_type": 1,
+      "spectacle": 1
+    }
+  },
+  {
+    "model": "catalogue.artistetypespectacle",
+    "pk": 2,
+    "fields": {
+      "artiste_type": 2,
+      "spectacle": 2
+    }
+  },
+  {
+    "model": "catalogue.artistetypespectacle",
+    "pk": 3,
+    "fields": {
+      "artiste_type": 3,
+      "spectacle": 3
+    }
+  }
+]

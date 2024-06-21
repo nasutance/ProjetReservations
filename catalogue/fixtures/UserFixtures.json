@@ -1,0 +1,26 @@
+[
+  {
+    "model": "catalogue.users",
+    "pk": 1,
+    "fields": {
+      "email": "admin@example.com",
+      "firstname": "Admin",
+      "langue": "fr",
+      "lastname": "User",
+      "login": "admin",
+      "password": "adminpassword"
+    }
+  },
+  {
+    "model": "catalogue.users",
+    "pk": 2,
+    "fields": {
+      "email": "member@example.com",
+      "firstname": "Member",
+      "langue": "fr",
+      "lastname": "User",
+      "login": "member",
+      "password": "memberpassword"
+    }
+  }
+]

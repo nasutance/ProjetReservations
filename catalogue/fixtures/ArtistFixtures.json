@@ -1,3 +1,4 @@
+#Reservations\catalogue\fixtures\ArtistFixtures.json
 [
   {
     "model": "catalogue.artist",

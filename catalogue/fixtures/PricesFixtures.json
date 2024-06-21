@@ -1,0 +1,22 @@
+[
+  {
+    "model": "catalogue.prices",
+    "pk": 1,
+    "fields": {
+      "end_date": "2024-12-31",
+      "price": "30.00",
+      "start_date": "2024-01-01",
+      "type": "standard"
+    }
+  },
+  {
+    "model": "catalogue.prices",
+    "pk": 2,
+    "fields": {
+      "end_date": "2024-12-31",
+      "price": "20.00",
+      "start_date": "2024-01-01",
+      "type": "discount"
+    }
+  }
+]

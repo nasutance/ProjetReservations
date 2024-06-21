@@ -1,0 +1,18 @@
+[
+  {
+    "model": "catalogue.roleuser",
+    "pk": 1,
+    "fields": {
+      "role": 1,
+      "user": 1
+    }
+  },
+  {
+    "model": "catalogue.roleuser",
+    "pk": 2,
+    "fields": {
+      "role": 2,
+      "user": 2
+    }
+  }
+]

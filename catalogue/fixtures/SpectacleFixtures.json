@@ -1,3 +1,4 @@
+#Reservations\catalogue\fixtures\SpectacleFixtures.json
 [
 {
   "model": "catalogue.spectacle",

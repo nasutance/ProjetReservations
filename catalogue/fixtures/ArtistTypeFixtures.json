@@ -1,0 +1,26 @@
+[
+  {
+    "model": "catalogue.artistetype",
+    "pk": 1,
+    "fields": {
+      "artist": 1,
+      "type": 1
+    }
+  },
+  {
+    "model": "catalogue.artistetype",
+    "pk": 2,
+    "fields": {
+      "artist": 2,
+      "type": 2
+    }
+  },
+  {
+    "model": "catalogue.artistetype",
+    "pk": 3,
+    "fields": {
+      "artist": 3,
+      "type": 3
+    }
+  }
+]
